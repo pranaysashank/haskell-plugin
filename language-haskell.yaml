@@ -1,0 +1,16 @@
+apiVersion: v2
+publisher: Justus Adam
+name: Haskell-Syntax-Highlighting
+version: 3.3.0
+type: VS Code extension
+displayName: Haskell Syntax Highlighting
+title: Haskell Syntax Highlighting
+description: Support for the Haskell programming language in Visual Studio Code.
+icon: https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/master/dependencies/che-plugin-registry/resources/images/default.svg?sanitize=true
+repository: https://github.com/JustusAdam/language-haskell
+category: Programming Languages
+firstPublicationDate: '2015-11-19'
+spec:
+  extensions:
+  - "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/justusadam.language-haskell-3.3.0.vsix"
+latestUpdateDate: "2020-06-25"

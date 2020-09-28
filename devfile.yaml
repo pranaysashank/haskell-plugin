@@ -1,0 +1,26 @@
+apiVersion: 1.0.0
+metadata:
+  generateName: haskell-hello-world-
+projects:
+  -
+    name: hello-world-haskell
+    source:
+      type: git
+      location: "https://github.com/pranaysashank/hello-world-haskell.git"
+      branch: master
+components:
+  -
+    type: chePlugin
+    id: "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/language-haskell.yaml"
+  -
+    type: chePlugin
+    reference: "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/haskell.yaml"
+  -
+    type: dockerimage
+    alias: haskell
+    image: pranaysashank/ghc:8.10.2-1.0
+    memoryLimit: 2G
+    mountSources: true
+    volumes:
+      - name: m2
+        containerPath: /home/user/.m2

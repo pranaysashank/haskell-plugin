@@ -1,0 +1,16 @@
+apiVersion: v2
+publisher: Haskell
+name: Haskell
+version: 3.3.0
+type: VS Code extension
+displayName: Haskell
+title: Haskell
+description: Haskell language support powered by the Haskell Language Server, ghcide or HIE.
+icon: https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/master/dependencies/che-plugin-registry/resources/images/default.svg?sanitize=true
+repository: https://github.com/haskell/vscode-haskell
+category: Programming Languages, Linters, Formatters
+firstPublicationDate: '2015-07-28'
+spec:
+  extensions:
+  - "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/haskell.haskell-1.1.0.vsix"
+latestUpdateDate: "2020-08-11"
