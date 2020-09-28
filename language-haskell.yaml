@@ -1,6 +1,6 @@
 apiVersion: v2
 publisher: Justus Adam
-name: Haskell-Syntax-Highlighting
+name: language-haskell
 version: 3.3.0
 type: VS Code extension
 displayName: Haskell Syntax Highlighting
