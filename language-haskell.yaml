@@ -1,5 +1,5 @@
 apiVersion: v2
-publisher: justusadam
+publisher: Justus Adam
 name: language-haskell
 version: 3.3.0
 type: VS Code extension

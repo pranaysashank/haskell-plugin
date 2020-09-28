@@ -11,7 +11,7 @@ projects:
 components:
   -
     type: chePlugin
-    id: "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/language-haskell.yaml"
+    reference: "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/language-haskell.yaml"
   -
     type: chePlugin
     reference: "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/haskell.yaml"
