@@ -20,7 +20,7 @@ components:
     memoryLimit: "512Mi"
   -
     type: dockerimage
-    alias: haskell
+    alias: haskell-userspace
     image: pranaysashank/ghc:8.10.2-1.2
     memoryLimit: 2G
     mountSources: true
