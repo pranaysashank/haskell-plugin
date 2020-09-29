@@ -11,6 +11,10 @@ repository: https://github.com/haskell/vscode-haskell
 category: Programming Languages, Linters, Formatters
 firstPublicationDate: '2015-07-28'
 spec:
+  containers:
+    - image: "pranaysashank/che-sidecar-haskell:8.10.2-1.0"
+      name: vscode-Haskell
+      memoryLimit: '2G'
   extensions:
-  - "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/haskell.haskell-1.1.0.vsix"
+    - "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/haskell.haskell-1.1.0.vsix"
 latestUpdateDate: "2020-08-11"
