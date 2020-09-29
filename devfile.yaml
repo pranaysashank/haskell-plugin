@@ -11,14 +11,17 @@ projects:
 components:
   -
     type: chePlugin
+    alias: language-haskell
     reference: "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/language-haskell.yaml"
   -
     type: chePlugin
+    alias: haskell
     reference: "https://raw.githubusercontent.com/pranaysashank/haskell-plugin/master/haskell.yaml"
+    memoryLimit: "512Mi"
   -
     type: dockerimage
     alias: haskell
-    image: pranaysashank/ghc:8.10.2-1.0
+    image: pranaysashank/ghc:8.10.2-1.2
     memoryLimit: 2G
     mountSources: true
     volumes:
